@@ -19,6 +19,9 @@ export class AppComponent implements OnInit {
 
   users: any[];
 
+  page: number = 1;
+  
+  
   constructor(public userService: UserService) {}
 
   ngOnInit(): void {
